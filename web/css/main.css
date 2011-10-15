@@ -1,36 +1,124 @@
+html, body {
+  overflow: hidden;
+  height:100%;
+}
 body {
-  width: 800px;
-  font-family: Verdana, Tahoma;
+  font-family: Helvetica Neue, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+  background-color: #C0DEED;
+  background-image: linear-gradient(bottom, #0084B4 1%, #C0DEED 62%);
+  background-image: -o-linear-gradient(bottom, #0084B4 1%, #C0DEED 62%);
+  background-image: -moz-linear-gradient(bottom, #0084B4 1%, #C0DEED 62%);
+  background-image: -webkit-linear-gradient(bottom, #0084B4 1%, #C0DEED 62%);
+  background-image: -ms-linear-gradient(bottom, #0084B4 1%, #C0DEED 62%);
+  background-repeat: no-repeat;
 }
 
-body header {
-  background-color: #eee;
+body .wrapper {
+  width: 830px;
+  min-height: 100%;
+  margin: 0px auto;
+  padding-top: 80px;
+  overflow: hidden;
+}
+
+body .wrapper .container {
+  background-color: #fff;
+  margin: 0px 5px;
+  width: 800px;
+  min-height: 100%;
+  box-shadow: 0px 0px 7px #666;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+body .wrapper header {
   min-height: 100px;
   width: 800px;
 }
 
-body section {
-  background-color: #eee;
+body .wrapper section {
+  background-color: #fff;
   min-height: 260px;
   float: left;
   width: 560px;
   padding: 20px;
 }
+body .wrapper section article {
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+body .wrapper section article .image {
+  float: left;
+  padding: 12px 12px 5px 0px;
+}
+body .wrapper section article .profile {
+  padding: 15px 5px;
+}
+body .wrapper section article .profile h1 {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+body .wrapper section article .profile .screen-name {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+body .wrapper section article .profile .screen-name span {
+  font-size: 100%;
+  font-weight: normal;
+}
 
-body aside {
-  background-color: #eee;
+body .wrapper section article .profile .id {
+  margin-top: 35px;
+  font-size: 1.4em;
+}
+body .wrapper section article .profile .id span {
+  font-weight: bold;
+  font-size: 3em;
+}
+body .wrapper section article p.error {
+  border: 1px solid #f00;
+  background-color: #fee;
+  color: #f00;
+  padding: 10px;
+  font-size: 1.2em;
+  float: left;
+  margin-top: 55px;
+}
+body .wrapper section article div.loader {
+  margin-top: 65px;
+  text-align: center;
+  width: 340px;
+}
+
+body .wrapper aside {
+  background-color: #fff;
   min-height: 300px;
   float: left;
   width: 200px;
 }
 
-body footer {
-  float: left;
+body .wrapper aside nav .twitter {
+  color: #0094C2;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+body .wrapper aside nav img {
+  vertical-align: middle;
+}
+
+
+body .wrapper footer {
+  /*  float: left;*/
   width: 800px;
   padding-top: 10px;
   font-size: 0.8em;
+  margin-top: -40px; /* negative value of footer height */
+	height: 40px;
+  position: relative;
 }
-body footer p {
+body .wrapper footer p {
   text-align: right;
 }
 
