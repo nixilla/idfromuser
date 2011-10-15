@@ -1,0 +1,29 @@
+body {
+  width: 800px;
+}
+
+body header {
+  background-color: #0ff;
+  min-height: 100px;
+  width: 800px;
+}
+
+body section {
+  background-color: #0f0;
+  min-height: 300px;
+  float: left;
+  width: 600px;
+}
+
+body aside {
+  background-color: #00f;
+  min-height: 300px;
+  float: left;
+  width: 200px;
+}
+
+body footer {
+  background-color: #0ff;
+  float: left;
+  width: 800px;
+}
