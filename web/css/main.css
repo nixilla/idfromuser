@@ -114,12 +114,16 @@ body .wrapper footer {
   width: 800px;
   padding-top: 10px;
   font-size: 0.8em;
-  margin-top: -40px; /* negative value of footer height */
+  margin-top: -50px; /* negative value of footer height */
 	height: 40px;
   position: relative;
 }
-body .wrapper footer p {
-  text-align: right;
+body .wrapper footer .fb-like {
+  margin: 0px 0px 0px 20px;
+}
+body .wrapper footer span {
+  padding-top: 5px;
+  float: right;
 }
 
 input {
