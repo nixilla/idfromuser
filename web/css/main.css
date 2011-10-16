@@ -113,13 +113,14 @@ body .wrapper footer {
   /*  float: left;*/
   width: 800px;
   padding-top: 10px;
+  padding-left: 20px;
   font-size: 0.8em;
   margin-top: -50px; /* negative value of footer height */
 	height: 40px;
   position: relative;
 }
 body .wrapper footer .fb-like {
-  margin: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 0px;
 }
 body .wrapper footer span {
   padding-top: 5px;
