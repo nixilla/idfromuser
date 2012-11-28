@@ -24,11 +24,13 @@ $(document).ready(function()
               +data[0].user.screen_name
               +' <span>'
               +data[0].user.location
-              +'</span></p><p class="rss-feed"><a href="http://twitter.com/statuses/user_timeline/'
-              +data[0].user.id
-              +'.rss" target="_blank"><img src="/images/rss-icon-16x16.png" alt="rss" />http://twitter.com/statuses/user_timeline/'
-              +data[0].user.id
-              +'.rss</a></p><p class="id"><span>'
+              +'</span></p><p class="rss-feed"><a href="https://api.twitter.com/1/statuses/user_timeline.rss?screen_name='
+              +data[0].user.screen_name
+              +'" target="_blank"><img src="/images/rss-icon-16x16.png" alt="rss" />https://api.twitter.com/1/statuses/user_timeline.rss?screen_name='
+              +data[0].user.screen_name
+              +'</a></p>' +
+                '<p class="notice"><strong>Warning!</strong> RSS feed is <a href="https://dev.twitter.com/docs/faq#11716" target="_blank">deprecated, and will cease functioning in March 2013</a>.</p>' +
+                '<p class="id"><span>'
               +data[0].user.id
               +'</span></p></div>');
 

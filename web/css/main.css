@@ -2,6 +2,11 @@ html, body {
   overflow: hidden;
   height:100%;
 }
+
+strong {
+    font-weight: bold;
+}
+
 body {
   font-family: Helvetica Neue, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
   background-color: #C0DEED;
@@ -81,6 +86,23 @@ body .wrapper section article .profile .rss-feed a {
 body .wrapper section article .profile .rss-feed a img {
   vertical-align: middle;
   padding: 0px 5px 0px 0px;
+}
+
+body .wrapper section article .profile .notice {
+    margin: 15px 0;
+    padding: 15px;
+    font-size: 0.8em;
+    color: #c09853;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+body .wrapper section article .profile .notice a {
+    color: inherit;
 }
 
 body .wrapper section article .profile .id {
